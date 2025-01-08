@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer{
+    .element-center{
+        @apply flex justify-between items-center
+    }
+    .borderHeader{
+        @apply  border-t-[1px] mt-[10px]
+    }
+    .foucus{
+        @apply focus:bg-zinc-300 rounded-[20px] px-[15px] 
+    }
+    .center-itms{
+        @apply flex flex-col justify-center items-center
+    }
+    .under-line{
+      @apply underline decoration-blue-700 underline-offset-[20px] decoration-[10px]
+    }
+}
+body {
+    background-color: #f5f5f5;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animate-marquee {
+    display: flex;
+    animation: marquee 15s linear infinite;
+    animation-play-state: running; /* الحركة تعمل افتراضياً */
+  }
+  
+  .group:hover .animate-marquee {
+    animation-play-state: paused; /* الحركة تتوقف عند تمرير الماوس */
+  }
