@@ -1,8 +1,8 @@
 
 const data = [
-    {image:"/src/assets/images/profile-1.jpg",title:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ea iusto veniam minus perferendis necessitatibus"},
-    {image:"/src/assets/images/profile-2.jpg",title:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ea iusto veniam minus perferendis necessitatibus"},
-    {image:"/src/assets/images/profile-3.jpg",title:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ea iusto veniam minus perferendis necessitatibus"},
+    {image:"/public/images/profile-1.jpg",title:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ea iusto veniam minus perferendis necessitatibus"},
+    {image:"/public/images/profile-2.jpg",title:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ea iusto veniam minus perferendis necessitatibus"},
+    {image:"/public/images/profile-3.jpg",title:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ea iusto veniam minus perferendis necessitatibus"},
 ]
 const About = () => {
   return (
@@ -18,7 +18,7 @@ const About = () => {
       </p>
     </div>
     <div className="flex flex-col md:flex-row mx-auto my-[80px] w-full sm:w-[90%] lg:w-[950px] shadow-lg shadow-slate-700 rounded-[10px]">
-      <img className="w-full md:w-[60%] h-auto rounded-t-[10px] md:rounded-l-[10px] md:rounded-tr-none" src="/src/assets/images/grow-better.webp" alt="" />
+      <img className="w-full md:w-[60%] h-auto rounded-t-[10px] md:rounded-l-[10px] md:rounded-tr-none" src="/public/images/grow-better.webp" alt="" />
       <div className="w-full md:w-[50%] p-[20px] md:py-[20px] md:px-[30px]">
         <h1 className="font-bold text-[24px] md:text-[33px] py-[10px]">Our Mission: Helping Millions of Organizations Grow Better</h1>
         <p className="font-semibold text-[16px] md:text-[22px] py-[10px]">

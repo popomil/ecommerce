@@ -1,15 +1,16 @@
 import { MdOutlineFavoriteBorder } from "react-icons/md";
-import { pro } from "../../data/ProductAll";
+// import { pro } from "../../data/ProductAll";
 import { useDispatch } from "react-redux";
 import { addToProduct } from "./ProductSlice";
+import { products } from "./ProductAll";
 
 const Product = () => {
   const dispatch = useDispatch();
-  console.log(pro);
+
   return (
     <section className="relative">
             <img
-        src="/src/assets/images/home.jpg"
+        src="/public/images/home.jpg"
         alt="Background"
         className="w-full  object-cover"
       />
@@ -17,7 +18,7 @@ const Product = () => {
   Best Products
 </h1>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-[40px] justify-center items-center">
-        {pro.map((item) => (
+        {products.map((item) => (
           <div
             key={item.id}
             className="border-[1px] relative rounded-[10px] text-[20px] shadow-lg shadow-slate-300"

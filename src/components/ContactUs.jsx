@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import contact from "../../public/anmation/contact.json";
+import contact from "./anmation/contact.json";
 import { useForm, ValidationError } from "@formspree/react";
 
 const ContactUs = () => {

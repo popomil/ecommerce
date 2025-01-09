@@ -1,6 +1,7 @@
 import { useDispatch } from "react-redux";
-import { chairProduct } from "../../data/ProductAll";
+
 import { addToProduct } from "./ProductSlice";
+import { chairProduct } from "./ProductAll";
 
 const ChairProduct = () => {
   const dispatch = useDispatch()

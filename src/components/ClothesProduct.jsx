@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux"
-import { clothesProduct } from "../../data/ProductAll"
 import { addToProduct } from "./ProductSlice"
+import { clothesProduct } from "./ProductAll"
 
 
 
